@@ -23,8 +23,7 @@ public class Principal {
                 objeto.setA(scan.nextFloat());
                 scan.nextLine();
                 while (objeto.getA() == 0) {
-                    System.out
-                            .println("Opção inválida!\nO valor de A tem que ser diferente de zero!\nTente novamente!");
+                    System.out.println("Opção inválida!\nO valor de A tem que ser diferente de zero!\nTente novamente!");
                     System.out.println("Digite o Valor de a:");
                     objeto.setA(scan.nextFloat());
                     scan.nextLine();
